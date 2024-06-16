@@ -1,0 +1,152 @@
+spbu_id,spbu_name,location,transaction_id,payment_id,payment_type,amount
+1,Jakarta,SPBU A,3001,1,debit,160000
+1,Jakarta,SPBU B,3002,1,debit,35000
+1,Jakarta,SPBU C,3003,2,credit,180000
+1,Jakarta,SPBU D,3004,2,credit,325000
+1,Jakarta,SPBU A,3005,3,e-wallet,245000
+1,Jakarta,SPBU B,3006,1,debit,50000
+1,Jakarta,SPBU B,3007,2,credit,300000
+1,Jakarta,SPBU B,3008,3,e-wallet,160000
+1,Jakarta,SPBU A,3009,2,credit,160000
+1,Jakarta,SPBU C,3010,3,e-wallet,35000
+1,Jakarta,SPBU A,3011,1,debit,275000
+1,Jakarta,SPBU A,3012,2,credit,160000
+1,Jakarta,SPBU A,3013,1,debit,160000
+2,Banten,SPBU K,3014,3,e-wallet,30000
+1,Jakarta,SPBU C,3015,2,credit,265000
+1,Jakarta,SPBU D,3016,2,credit,275000
+1,Jakarta,SPBU A,3017,1,debit,280000
+2,Banten,SPBU K,3018,2,credit,35000
+2,Banten,SPBU J,3019,1,debit,50000
+2,Banten,SPBU K,3020,3,e-wallet,160000
+2,Banten,SPBU I,3021,2,credit,160000
+4,Kalimantan,SPBU G,3022,1,debit,135000
+4,Kalimantan,SPBU F,3023,1,debit,275000
+4,Kalimantan,SPBU G,3024,3,e-wallet,160000
+4,Kalimantan,SPBU F,3025,2,credit,160000
+2,Banten,SPBU H,3026,3,e-wallet,140000
+2,Banten,SPBU I,3027,1,debit,50000
+2,Banten,SPBU I,3028,2,credit,275000
+2,Banten,SPBU K,3029,2,credit,160000
+2,Banten,SPBU J,3030,1,debit,160000
+2,Banten,SPBU K,3031,3,e-wallet,20000
+2,Banten,SPBU K,3032,1,debit,160000
+2,Banten,SPBU K,3033,2,credit,160000
+2,Banten,SPBU I,3034,3,e-wallet,140000
+2,Banten,SPBU K,3035,1,debit,50000
+4,Kalimantan,SPBU G,3036,2,credit,160000
+4,Kalimantan,SPBU F,3037,2,credit,35000
+4,Kalimantan,SPBU G,3038,3,e-wallet,160000
+4,Kalimantan,SPBU F,3039,1,debit,160000
+2,Banten,SPBU K,3040,2,credit,50000
+2,Banten,SPBU K,3041,1,debit,255000
+2,Banten,SPBU K,3042,2,credit,280000
+2,Banten,SPBU K,3043,3,e-wallet,25500
+2,Banten,SPBU I,3044,1,debit,140000
+2,Banten,SPBU K,3045,2,credit,320000
+2,Banten,SPBU I,3046,2,credit,160000
+2,Banten,SPBU K,3047,1,debit,28500
+2,Banten,SPBU J,3048,2,credit,50000
+2,Banten,SPBU K,3049,3,e-wallet,140000
+2,Banten,SPBU I,3050,2,credit,305000
+2,Banten,SPBU K,3051,1,debit,50000
+2,Banten,SPBU K,3052,3,e-wallet,320000
+2,Banten,SPBU J,3053,2,credit,280000
+2,Banten,SPBU I,3054,1,debit,50000
+2,Banten,SPBU K,3055,1,debit,160000
+2,Banten,SPBU J,3056,3,e-wallet,50000
+2,Banten,SPBU K,3057,1,debit,295000
+5,Jawa Tengah,SPBU O,3058,2,credit,255000
+5,Jawa Tengah,SPBU P,3059,2,credit,140000
+5,Jawa Tengah,SPBU O,3060,3,e-wallet,320000
+2,Banten,SPBU K,3061,1,debit,33000
+2,Banten,SPBU K,3062,1,debit,27000
+2,Banten,SPBU K,3063,2,credit,160000
+2,Banten,SPBU I,3064,3,e-wallet,27000
+2,Banten,SPBU K,3065,1,debit,265000
+2,Banten,SPBU J,3066,2,credit,275000
+2,Banten,SPBU K,3067,2,credit,260000
+2,Banten,SPBU J,3068,1,debit,50000
+5,Jawa Tengah,SPBU O,3069,3,e-wallet,140000
+5,Jawa Tengah,SPBU P,3070,1,debit,320000
+5,Jawa Tengah,SPBU O,3071,3,e-wallet,160000
+2,Banten,SPBU K,3072,2,credit,26000
+2,Banten,SPBU J,3073,2,credit,26000
+2,Banten,SPBU J,3074,1,debit,50000
+2,Banten,SPBU J,3075,3,e-wallet,275000
+2,Banten,SPBU J,3076,2,credit,265000
+2,Banten,SPBU I,3077,1,debit,34500
+2,Banten,SPBU J,3078,3,e-wallet,140000
+2,Banten,SPBU I,3079,1,debit,160000
+2,Banten,SPBU I,3080,2,credit,280000
+2,Banten,SPBU I,3081,2,credit,50000
+2,Banten,SPBU J,3082,3,e-wallet,265000
+2,Banten,SPBU I,3083,1,debit,32000
+2,Banten,SPBU I,3084,2,credit,32000
+2,Banten,SPBU I,3085,1,debit,27000
+6,Sumatera,SPBU T,3086,2,credit,30500
+6,Sumatera,SPBU R,3087,3,e-wallet,160000
+6,Sumatera,SPBU S,3088,1,debit,140000
+6,Sumatera,SPBU T,3089,2,credit,265000
+6,Sumatera,SPBU R,3090,3,e-wallet,30000
+6,Sumatera,SPBU S,3091,1,debit,50000
+2,Banten,SPBU K,3092,2,credit,29500
+2,Banten,SPBU I,3093,2,credit,27000
+2,Banten,SPBU J,3094,3,e-wallet,28000
+5,Jawa Tengah,SPBU O,3095,1,debit,140000
+5,Jawa Tengah,SPBU P,3096,2,credit,320000
+5,Jawa Tengah,SPBU O,3097,1,debit,160000
+2,Banten,SPBU J,3098,3,e-wallet,300000
+2,Banten,SPBU I,3099,2,credit,160000
+2,Banten,SPBU J,3100,1,debit,28000
+2,Banten,SPBU I,3101,1,debit,295000
+2,Banten,SPBU J,3102,2,credit,160000
+2,Banten,SPBU K,3103,3,e-wallet,50000
+2,Banten,SPBU J,3104,1,debit,320000
+2,Banten,SPBU I,3105,2,credit,160000
+2,Banten,SPBU K,3106,3,e-wallet,26000
+2,Banten,SPBU J,3107,1,debit,31500
+5,Jawa Tengah,SPBU O,3108,1,debit,160000
+5,Jawa Tengah,SPBU P,3109,3,e-wallet,140000
+5,Jawa Tengah,SPBU O,3110,1,debit,270000
+3,Bali,SPBU M,3111,3,e-wallet,160000
+3,Bali,SPBU N,3112,2,credit,140000
+3,Bali,SPBU L,3113,2,credit,265000
+3,Bali,SPBU M,3114,1,debit,50000
+3,Bali,SPBU L,3115,1,debit,50000
+3,Bali,SPBU M,3116,3,e-wallet,140000
+3,Bali,SPBU N,3117,1,debit,50000
+5,Jawa Tengah,SPBU O,3118,2,credit,140000
+5,Jawa Tengah,SPBU P,3119,3,e-wallet,320000
+5,Jawa Tengah,SPBU O,3120,1,debit,50000
+5,Jawa Tengah,SPBU P,3121,2,credit,320000
+2,Banten,SPBU K,3122,2,credit,265000
+2,Banten,SPBU I,3123,2,credit,160000
+2,Banten,SPBU K,3124,3,e-wallet,140000
+2,Banten,SPBU K,3125,1,debit,320000
+2,Banten,SPBU J,3126,2,credit,160000
+2,Banten,SPBU I,3127,1,debit,290000
+2,Banten,SPBU K,3128,2,credit,50000
+3,Bali,SPBU N,3129,3,e-wallet,50000
+3,Bali,SPBU L,3130,1,debit,265000
+3,Bali,SPBU M,3131,3,e-wallet,50000
+3,Bali,SPBU L,3132,2,credit,160000
+5,Jawa Tengah,SPBU O,3133,2,credit,50000
+5,Jawa Tengah,SPBU P,3134,1,debit,305000
+5,Jawa Tengah,SPBU O,3135,1,debit,140000
+5,Jawa Tengah,SPBU P,3136,3,e-wallet,160000
+3,Bali,SPBU L,3137,1,debit,320000
+6,Sumatera,SPBU R,3138,2,credit,50000
+6,Sumatera,SPBU S,3139,3,e-wallet,140000
+6,Sumatera,SPBU T,3140,1,debit,50000
+6,Sumatera,SPBU R,3141,2,credit,255000
+6,Sumatera,SPBU S,3142,1,debit,50000
+6,Sumatera,SPBU T,3143,2,credit,295000
+6,Sumatera,SPBU R,3144,3,e-wallet,160000
+6,Sumatera,SPBU S,3145,2,credit,140000
+6,Sumatera,SPBU T,3146,1,debit,50000
+3,Bali,SPBU N,3147,3,e-wallet,160000
+3,Bali,SPBU L,3148,2,credit,265000
+3,Bali,SPBU M,3149,1,debit,140000
+3,Bali,SPBU L,3150,1,debit,160000
+,,,,,,

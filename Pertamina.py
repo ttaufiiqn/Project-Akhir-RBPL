@@ -476,18 +476,42 @@ def rata_rata_amount_per_lokasi(df):
    # df['amount'] = pd.to_numeric(df['amount'].fillna(0).astype(str), errors='coerce')
 
    # Menghapus koma, spasi, dan huruf "Rp", lalu mengonversi ke float, lalu ke integer
-    df['amount'] = df['amount'].apply(lambda x: str(x).replace(',', '').replace(' ', '').replace('Rp', '').strip()).astype(float).astype(int)
-
+    # Bersihkan kolom 'amount'
+    df['amount'] = df['amount'].apply(lambda x: str(x).replace(',', '').replace(' ', '').replace('Rp', '').strip())
+    df['amount'] = pd.to_numeric(df['amount'], errors='coerce')  # Konversi ke numeric dengan error handling
+    
+    # Hapus baris dengan nilai amount NaN
+    df = df.dropna(subset=['amount'])
+    
+    # Pastikan kolom 'amount' adalah float
+    df['amount'] = df['amount'].astype(float)
+    
+    # Hitung rata-rata per lokasi
     rata_rata_per_lokasi = df.groupby('spbu_name')['amount'].mean().reset_index()
+    
     return rata_rata_per_lokasi
-
 def jumlah_pemasukan_per_spbu(df):
     #df['amount'] = pd.to_numeric(df['amount'].fillna(0).astype(str), errors='coerce')
 
 
     # Menghapus koma, spasi, dan huruf "Rp", lalu mengonversi ke float, lalu ke integer
-    df['amount'] = df['amount'].apply(lambda x: str(x).replace(',', '').replace(' ', '').replace('Rp', '').strip()).astype(float).astype(int).astype(str)
-    return df.groupby('location')['amount'].sum().reset_index()
+    # Bersihkan kolom 'amount'
+    df['amount'] = df['amount'].apply(lambda x: str(x).replace(',', '').replace(' ', '').replace('Rp', '').strip())
+    df['amount'] = pd.to_numeric(df['amount'], errors='coerce')  # Konversi ke numeric dengan error handling
+    
+    # Hapus baris dengan nilai amount NaN atau inf
+    df = df[~df['amount'].isna() & ~df['amount'].isin([float('inf'), float('-inf')])]
+    
+    # Pastikan kolom 'amount' adalah integer
+    df['amount'] = df['amount'].astype(int)
+    
+    # Hitung jumlah per lokasi
+    jumlah_per_lokasi = df.groupby('location')['amount'].sum().reset_index()
+    
+    # Konversi kembali kolom 'amount' ke string jika diperlukan
+    jumlah_per_lokasi['amount'] = jumlah_per_lokasi['amount'].astype(str)
+    
+    return jumlah_per_lokasi
 
 def page_visualisasi(nip, connection):
     page = st.sidebar.selectbox("Pilih Opsi", ["Visualisasi Semua Data", "Visualisasi Hari Ini", "Visualisasi Bulan Ini"])
